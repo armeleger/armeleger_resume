@@ -1,2 +1,8 @@
-# armeleger_resume
-Armel's First Website (Built with HTML/CSS/JS)
+## 🚀 Kirarmeleger Portfolio
+
+*A responsive personal portfolio website built with:*
+
+✔ Pure HTML/CSS/JS  
+✔ Mobile-first approach  
+✔ Semantic accessibility standards  
+✔ CSS animations  
