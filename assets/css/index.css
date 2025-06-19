@@ -92,44 +92,59 @@
     align-items: center;
     padding: 50px;
     background-color: #f4f4f4;
-  } 
-
-    .logo {
-      font-weight: bold;
-      font-size: 18px;
-      padding-right: 80%;
-    }
-    .logo {
-      font-weight: bold;
     }
 
-
-    .nav-links {
-      display: flex;
-      gap: 20px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
+  .logo {
+    font-weight: bold;
+    margin-right: 100%;
+    font-size: 18px;
+    padding-right: 55% ;
     }
 
-    .nav-links li {
-      position: relative;
-      padding: 50px;
-    }
+  .nav-links {
+    display: flex;
+    margin-left: 50%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #2c3e50;
+    transition: width 0.3s ease;
+  }
+
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
   
-  
-  
-    .resume-btn {
+  .resume-btn {
       background-color: #fcb900;
-    }
+  }
 
-    .projects-btn {
+  .projects-btn {
       background-color: #fc4a1a;
-    }
+  }
 
-    .contact-btn {
+  .contact-btn {
       background-color: #3a86ff;
-    }
+  }
 
 
 @media (max-width: 768px) {
